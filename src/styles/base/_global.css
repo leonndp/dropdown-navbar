@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $mainBlue;
+}
+
+#app {
+    height: 100vh;
+}
