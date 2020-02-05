@@ -13,8 +13,12 @@ class DropdownNavbar extends React.Component {
                 top: 0,
                 left: 0
             },
-            backgroundIsOpen: false
+            backgroundIsOpen: false,
+            browserHeight: window.innerHeight,
+            previousScrollY: window.scrollY
         }
+
+        console.log(this.state.browserHeight, this.state.previousScrollY)
     }
 
     componentDidMount() {
