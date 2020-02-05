@@ -57,7 +57,9 @@ class DropdownNavbar extends React.Component {
                     backgroundIsOpen={this.state.backgroundIsOpen}
                 />
                 <div className="wrapper flex-container">
-                    <h1>Company</h1>
+                    <div className="dropdown-navbar logo">
+                        <h1>Logo</h1>
+                    </div>
                     <ul className="dropdown-navbar__menu">
                         <DropdownNavbarItem linkLabel='About Me' onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave}>
                             <div className="bio">
